@@ -24,3 +24,17 @@ body{
 
 }
 
+#nav-penta li{
+    display: block;/*retira as bolinhas do menu li*/
+}
+
+#nav-penta a{
+    display: block;/*add area em volta do texto*/
+    border: 1px solid;/*add borda*/
+    cursor: pointer;/*add area clicavel*/
+    text-decoration: none;
+    width: 200px;
+    height: 28px;
+    text-align: center;
+}
+
